@@ -20,10 +20,6 @@ Tailwind CSS is a utility-first CSS framework designed to enable users to create
 5. Style the layout (hard level)
 6. Custom classes with the `@apply` directive (medium level)
 
-## Prerequisites
-
-Make a copy of the previous labs in your repository under the `labs/module-4` folder and commit.
-
 ## Part 1. Initialize Tailwind CSS inside a Next.js application (easy level)
 
 Follow the [official installation](https://tailwindcss.com/docs/guides/nextjs) guide to install Tailwind inside Next.js. Since you already have a Next.js application, start at step 2.
