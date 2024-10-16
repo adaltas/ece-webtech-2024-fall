@@ -15,36 +15,22 @@ Consider drawing inspiration from platforms like [Medium](https://medium.com/cre
 
 ## Deadline
 
-29 December 2023, at 23:59
+Coming soon...
 
 ## Delivery Requirements
 
 * **GitHub Repository**: Submit your project on GitHub (keep the repository from labs). Keep it private and grant access to your instructor.
 * **Deployment**: Deploy your application on [Vercel.com](https://vercel.com) and [Supabase.com](https://supabase.com/) with a publicly accessible URL.
 * **Repository Structure**: Organize your repository as follows:
-
-  For the groupes SI gr01, gr02, gr03, and gr04:
   
   ```txt
   /
-  ├── app/          # Frontend (Next.js)
+  ├── client/       # or front/, etc. - Frontend made using Next.js
+  ├── api/          # or back/, api/, etc. - Backend made using Node.js/Express
   ├── supabase/     # Supabase Docker Compose configuration
   ├── README.md
-  ├── .gitignore
-  ├── .env.example  # Supabase example env
-  └── ...
-  ```
-
-  For the groupes SI gr05 and gr06:
-  
-  ```txt
-  /
-  ├── client/     # Frontend (Next.js)
-  ├── labs/       # Optional lab materials
-  ├── server/     # Optional backend (Node.js/Express)
-  ├── supabase/   # Supabase Docker Compose configuration
-  ├── README.md
-  └── .gitignore
+  ├── .gitignore    # (optional) Global .gitignore for DS_Store, etc.
+  └── ...           # (optional) Other files and directories like labs notes, LICENSE, etc.
   ```
 
 * **Documentation**: Your `README.md` must follow the provided [template](./project-template/README.md). In particular, it must include a self-evaluation and **concise** comments on your implementation.
