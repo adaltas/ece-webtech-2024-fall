@@ -186,10 +186,7 @@ const MyForm = function() {
     <form onSubmit={onSubmit}>
       <h2>My form</h2>
       <div>
-        <input
-          type="text"
-          name="my_input"
-        />
+        <input name="my_input" />
       </div>
       <div>
         <button>Submit</button>
@@ -210,20 +207,19 @@ const MyForm = function() {
 import { useState } from 'react'
 
 const MyForm = function() {
-  const [data, setData] = useState({})
+  const [inputValue, setInputValue] = useState("Default value")
   const onSubmit = function(e) {
     e.preventDefault()
-    console.log(data)
+    console.log(inputValue)
   }
   return (
     <form onSubmit={onSubmit}>
       <h2>My form</h2>
       <div>
         <input
-          type="text"
           name="my_input"
-          value={data.my_value}
-          onChange={e => setData({...data, ...{my_input: e.target.value}})}
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
         />
       </div>
       <div>
