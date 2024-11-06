@@ -62,7 +62,7 @@ Disadvantages
 
 Follow the [official documentation](https://reactjs.org/docs/getting-started.html).
 
-## React main concepts: Function and Class Components 
+## React main concepts: Function and Class Components
 
 Function component (preferred):
 
@@ -108,11 +108,11 @@ root.render(Button)
 
 ## React main concepts: JSX
 
-* JavaScript Syntax Extension or JavaScript XML
-* Provides in-line ersatz HTML in JavaScript.
-* Replaces `React.createElement()` calls.
-* When React compiles, it uses a library called [Babel](https://babeljs.io/) to generate `createElement()` statements from the JSX.
-* JSX is never rendered directly
+- JavaScript Syntax Extension or JavaScript XML
+- Provides in-line ersatz HTML in JavaScript.
+- Replaces `React.createElement()` calls.
+- When React compiles, it uses a library called [Babel](https://babeljs.io/) to generate `createElement()` statements from the JSX.
+- JSX is never rendered directly
 
 Example with `React.createElement()`:
 
@@ -170,8 +170,9 @@ A framework can solve these problems.
 ## React-based frameworks
 
 - [Next.js](https://nextjs.org/)
-- Gatsby
-- React Redux
+- [Remix](https://remix.run/)
+- [Gatsby](https://www.gatsbyjs.com/)
+- [TanStack Start](https://tanstack.com/start)
 - ...
 
 ## Next.js
@@ -196,5 +197,5 @@ A framework can solve these problems.
 Task: Create a simple HTML page with a click counter - a button that increments the counter each time you click it.
 
 - [Demo 1. "Old-school" way with native JavaScript](demo/demo-1)
-- [Demo 2. Using React with `React.createClement()`](demo/demo-2)
+- [Demo 2. Using React with `React.createElement()`](demo/demo-2)
 - [Demo 3. Using React with JSX and Next.js framework](demo/demo-3)
