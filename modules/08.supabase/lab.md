@@ -32,7 +32,7 @@ To launch Supabase in development mode, run the following command:
 docker compose -f ./docker-compose.yml -f ./dev/docker-compose.dev.yml up
 ```
 
-That command will start the Supabase services and the Postgres database. The Supabase service will be available at `http://localhost:8000` and the Supabase Studio at `http://localhost:3001`.
+That command will start the Supabase services and the Postgres database. The Supabase service will be available at `http://localhost:8000` and the Supabase Studio at <http://localhost:3000>.
 
 Important: Make sure to never commit your `.env` files. They contain sensible information.
 
