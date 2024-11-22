@@ -22,7 +22,7 @@ The Supabase platform helps developers in the creation of modern apps. Its core 
 
 ## Part 1. Supabase installation (medium level)
 
-Follow the official [self-hosting with Docker](https://supabase.com/docs/guides/hosting/docker) documentation.
+Follow the official [self-hosting with Docker](https://supabase.com/docs/guides/hosting/docker) documentation, with the following modifications:
 
 The `supabase/docker` directory contains the necessary files to run Supabase locally. Copy this directory into your project root directory and call it `./supabase`.
 
