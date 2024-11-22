@@ -26,8 +26,6 @@ Follow the official [self-hosting with Docker](https://supabase.com/docs/guides/
 
 The `supabase/docker` directory contains the necessary files to run Supabase locally. Copy this directory into your project root directory and call it `./supabase`.
 
-Note: In `./supabase/.env`, set the `STUDIO_PORT` to `3001` to avoid conflict with the Next.js default port.
-
 To launch Supabase in development mode, run the following command:
 
 ```bash
