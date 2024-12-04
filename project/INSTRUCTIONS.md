@@ -33,7 +33,7 @@ Coming soon...
   └── ...           # (optional) Other files and directories like labs notes, LICENSE, etc.
   ```
 
-* **Documentation**: Your `README.md` must follow the provided [template](./project-template/README.md). In particular, it must include a self-evaluation and **concise** comments on your implementation.
+* **Documentation**: Your project must contain the provided [PROJECT.md](./PROJECT.md) filled with the required information.
 
 ## Technological Restrictions
 
